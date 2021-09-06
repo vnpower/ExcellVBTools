@@ -8,6 +8,7 @@ Public Sub FindLastRowNumber()
      Worksheets("allevent").Cells(i, 14) = i - 1
     Next
 End Sub
+
 Sub ExtractUniqueTag()
     Dim arr As New Collection, a
     Dim i As Long
